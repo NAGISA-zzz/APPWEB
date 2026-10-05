@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cantante</title>
+    
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <main class="opciones">
+        <aside class="menu">
+            <nav>
+                <h1>MENU</h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="formulario1.html">Disco</a></li>
+                    <li><a href="formulario2.html">Cantante</a></li>
+                    <li><a href="formulario3.html">Cancion</a></li>
+                    <li><a href="formulario4.html">Playlist</a></li>
+                </ul>
+            </nav>
+        </aside>
+            <section id="inicio">
+                <article>
+                    <form name="fondo" action="#" method="post">
+                        <fieldset id="datos">
+                            <article id="name">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre">
+                            </article>
+                            <article id="Edad">
+                                <label for="edad">Edad</label>
+                                <input type="text" id="edad" name="edad">
+                            </article>
+                            <article id="Genero">
+                                <label for="genero">Genero:</label>
+                                 <input type="radio" id="masculino" name="genero" value="masculino">
+                                 <label for="masculino">Masculino</label>
+                                 <input type="radio" id="femenino" name="genero" value="femenino">
+                                 <label for="femenino">Femenino</label>
+                            </article>
+                            <article id="Trayectoria">
+                                <label for="trayectoria">Trayectoria:</label>
+                                <select id="trayectoria" name="trayectoria">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </article>
+                            <br>
+                            </fieldset>
+
+                            <fieldset id="fotodisco">
+                        <article id="contenedorFoto">
+                            <img id="imagen" src="img/snorlax.jpeg">
+                            <br>
+                            <label for="foto">Foto:</label>
+                            <input type="file" id="foto" name="foto">
+                                </article>
+                            </fieldset>
+                            
+                    </form>
+                </article>
+                        <fieldset id="guardar">
+                            <button type="submit">Guardar</button>
+                        </fieldset>
+                    <header>
+                    <h1>Cantante</h1>
+                    </header>
+    </main>
+
+    <footer class="grupo">
+        <section class="footer-left">
+        <p>LDMS401</p>
+        </section>
+
+        <nav class="pie">
+        <p>Eduardo Francisco Torres Padilla</p>
+        </nav>
+    </footer>
+
+    </body>
+    </html>

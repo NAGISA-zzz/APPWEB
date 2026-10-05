@@ -1,0 +1,192 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+}
+
+
+header img {
+    border-radius: 50%;
+    
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.menu {
+    width: 15%;
+    background-color: #1E1E1E;
+    color: #B3B3B3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    min-width: 180px;
+    height: 600px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: block;
+    margin: 15px 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #1DB954;
+}
+
+
+article {
+    background-color: #242424;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #333333;
+}
+
+h2 {
+    color: #1DB954;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #1ED760;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 400px;
+}
+
+#datos {
+    border: 2px solid #333333;
+    padding: 20px;
+    border-radius: 8px;
+    height: 400px;
+}
+
+#fotodisco {
+    border: 2px solid #333333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    color: #1DB954;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0%;
+}
+
+button:hover {
+    background-color: #1ED760;
+}
+
+
+#respuesta {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+}
+
+#respuesta label {
+    margin-right: 10px;
+}
+
+#respuesta input {
+    margin-left: 10px;
+}
+
+#name {
+    width: 500px;
+}
+
+#Genero {
+    width: 500px;
+}
+
+#Artista {
+    width: 500px;
+}
+
+#Precio {
+    width: 500px;
+}
+
+#contenedorFoto {
+    width: 500px;
+    height: 300px;
+}
+
+#imagen {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.pie {
+    color: #B3B3B3;
+}
+
