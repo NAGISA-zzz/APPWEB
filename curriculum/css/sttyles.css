@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: #111827;
+    color: white;
+    padding-top: 100px !important;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.hero h2 {
+    color: #9ca3af;
+}
+
+.hero p {
+    color: #d1d5db;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+section h2 {
+    color: #111827;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#contacto {
+    background-color: #111827;
+    color: white;
+}
+
+#contacto h2 {
+    color: white;
+}
+
+footer {
+    background-color: #111827;
+    color: white;
+}

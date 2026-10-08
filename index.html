@@ -1,23 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mis páginas web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mis proyectos web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-    <h1>Mis páginas web</h1>
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top">
+        <section class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-code-slash"></i>Mi Portafolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </nav>
+
+    <main id="inicio">
+        <section class="hero">
+            <section class="container">
+                <section class="row align-items-center">
+                    <article class="col-lg-7">
+                        <p class="text-primary fw-semibold mb-2">PORTAFOLIO WEB</p>
+                        <h1>Mis proyectos<span>HTML</span></h1>
+                        <p class="mt-4">
+                            Un espacio donde reúno mis prácticas y proyectos
+                            desarrollados durante mi aprendizaje en desarrollo web.
+                        </p>
+                        <a href="#proyectos" class="btn btn-primary btn-lg mt-3 px-4">Ver proyectos
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </article>
+
+                    <article class="col-lg-5 text-center mt-5 mt-lg-0">
+                        <i class="bi bi-window-stack text-primary"style="font-size: 11rem;"></i>
+                    </article>
+
+                </section>
+            </section>
+        </section>
 
 
-    <h2>Mis proyectos</h2>
+        <section id="proyectos" class="container py-5">
+            <section class="text-center mb-5">
+                <p class="text-primary fw-semibold">MI TRABAJO</p>
+                <h2 class="display-5 fw-bold">Proyectos</h2>
+            </section>
 
-    <a href="practica1/index.html">Practica 1</a>
-    <br><br>
-    <a href="formularios/home.html">Practica 2</a>
-    <br><br>
+            <section class="row g-4">
+                <article class="col-md-6 col-lg-4">
+                    <section class="card project-card shadow-sm">
+                        <section class="project-image">
+                            <i class="bi bi-window"></i>
+                        </section>
+                        <section class="card-body p-4">
+                            <p class="text-primary fw-semibold">PRÁCTICA 01</p>
+                            <h3 class="h4 fw-bold">Primera página web</h3>
+                            <p class="text-secondary">
+                                Mi primera práctica de desarrollo web utilizando
+                                estructura HTML.
+                            </p>
+                            <section class="mb-4">
+                                <span class="badge-tech">HTML</span>
+                            </section>
+                            <a href="practica1/index.html"
+                                class="btn btn-outline-primary w-100">Ver proyecto<i class="bi bi-arrow-up-right ms-2"></i></a>
+                        </section>
+                    </section>
+                </article>
 
+                <article class="col-md-6 col-lg-4">
+                    <section class="card project-card shadow-sm">
+                        <section class="project-image green">
+                            <i class="bi bi-ui-checks-grid"></i>
+                        </section>
 
+                        <section class="card-body p-4">
+                            <p class="text-success fw-semibold">PRÁCTICA 02</p>
+                            <h3 class="h4 fw-bold">Formularios</h3>
+                            <p class="text-secondary">
+                                Proyecto enfocado en la creación y organización
+                                de formularios HTML.
+                            </p>
+                            <section class="mb-4">
+                                <span class="badge-tech">HTML</span>
+                                <span class="badge-tech">Forms</span>
+                            </section>
+
+                            <a href="formularios/home.html"
+                                class="btn btn-outline-success w-100">
+                                Ver proyecto
+                                <i class="bi bi-arrow-up-right ms-2"></i>
+                            </a>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-md-6 col-lg-4">
+                    <section class="card project-card shadow-sm">
+                        <section class="project-image orange">
+                            <i class="bi bi-person-vcard"></i>
+                        </section>
+
+                        <section class="card-body p-4">
+                            <p class="text-warning fw-semibold">PRÁCTICA 03 </p>
+                            <h3 class="h4 fw-bold">Currículum profesional </h3>
+                            <p class="text-secondary">
+                                Página web diseñada para presentar un currículum
+                                profesional utilizando Bootstrap.
+                            </p>
+                            <section class="mb-4">
+                                <span class="badge-tech">HTML</span>
+                                <span class="badge-tech">Bootstrap</span>
+                            </section>
+                            <a href="curriculum/curriculum.html"class="btn btn-outline-warning w-100"> Ver proyecto<i class="bi bi-arrow-up-right ms-2"></i></a>
+                        </section>
+                    </section>
+                </article>
+
+<!--pegar aqui-->
+             
+
+            </section>
+        </section>
+        <section id="sobre-mi" class="container py-5">
+        </section>
+
+    </main>
+
+    <footer class="py-4">
+        <section class="container text-center">
+            <p class="mb-1 fw-semibold">
+                Eduardo Francisco Torres Padilla
+            </p>
+            <p class="mb-0 text-secondary">
+                Practicas de desarrollo web  2026
+            </p>
+        </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
-```
+
+
+<!--NUEVO PROYECTO  solo copia y pega wey no se te olvide
+
+<article class="col-md-6 col-lg-4">
+    <section class="card project-card shadow-sm">
+        <section class="project-image">
+            <i class="bi bi-code-square"></i>
+        </section>
+        <section class="card-body p-4">
+            <p class="text-primary fw-semibold">
+                PRACTICA 04
+            </p>
+            <h3 class="h4 fw-bold">Nombre del proyecto </h3>
+            <p class="text-secondary">Descripciion</p>
+            <section class="mb-4">
+                <span class="badge-tech">HTML</span>
+                <span class="badge-tech">CSS</span>
+            </section>
+            <a href="carpeta/index.html"
+                class="btn btn-outline-primary w-100">
+                Ver proyecto
+                <i class="bi bi-arrow-up-right ms-2"></i>
+            </a>
+        </section>
+    </section>
+</article>
+
+-->
